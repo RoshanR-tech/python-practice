@@ -39,3 +39,83 @@ for i in range(5,0,-1):
     for j in range(i):
         print("*", end=" ")
     print()
+
+
+# Day 8 - Problem 6: Prime number checker
+
+num = int(input("Enter a number: "))
+
+count = 0
+
+for i in range(1, num+1):
+    if num % i == 0:
+        count = count + 1
+
+if count == 2:
+    print("Prime number")
+else:
+    print("Not a prime number")
+
+
+# Day 8 - Problem 7: Sum of digits using while loop
+
+num = int(input("Enter number: "))
+
+total = 0
+
+while num > 0:
+    digit = num % 10
+    total = total + digit
+    num = num // 10
+
+print("Sum of digits:", total)
+
+
+# Day 8 - Problem 8: Reverse a number
+
+num = int(input("Enter number: "))
+
+reverse = 0
+
+while num > 0:
+    digit = num % 10
+    reverse = reverse*10 + digit
+    num = num // 10
+
+print("Reversed number:", reverse)
+
+# Day 8 - Problem 9: Number guessing game
+
+secret = 7
+
+while True:
+
+    guess = int(input("Guess the number: "))
+
+    if guess == secret:
+        print("Correct guess!")
+        break
+
+    elif guess > secret:
+        print("Too high")
+
+    else:
+        print("Too low")
+
+
+# Day 8 - Problem 10: Fibonacci series
+
+n = 10
+
+a = 0
+b = 1
+
+for i in range(n):
+
+    print(a)
+
+    c = a + b
+    a = b
+    b = c
+
+
