@@ -1,0 +1,53 @@
+# Mistake 1 – Confusion between i and j in nested loops
+
+for i in range(3):
+    for j in range(3):
+        print(i, end=" ")   # Mistake: printing i instead of j
+    print()
+
+# Fix
+for i in range(3):
+    for j in range(3):
+        print(j, end=" ")
+    print()
+
+# Lesson:
+# i controls rows
+# j controls columns
+
+
+# Mistake 2 – Counter printed inside loop instead of after loop
+
+count = 0
+
+for i in range(1,6):
+    count = count + 1
+    print(count)   # Mistake: printing inside loop
+
+# Fix
+count = 0
+
+for i in range(1,6):
+    count = count + 1
+
+print(count)
+
+# Lesson:
+# Print counter outside loop if total count is needed
+
+
+
+# Mistake 3 – Pattern printing going to next line
+
+for i in range(3):
+    for j in range(3):
+        print("*")   # Mistake: goes to next line
+
+# Fix
+for i in range(3):
+    for j in range(3):
+        print("*", end="")
+    print()
+
+# Lesson:
+# Use end="" to print in same line
