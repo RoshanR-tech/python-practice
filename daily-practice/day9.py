@@ -29,3 +29,45 @@ def greeting(name):
     print("Hello",name)
 greeting("Roshan")
 greeting("Vihitha")
+
+
+# input can be given while calling the function 
+# Function to calculate rectangle area
+def rectangle_area(length, width):
+    print("Area is", length * width)
+
+rectangle_area(5, 4)
+
+
+# Function to print square pattern
+def square_pattern(n):
+    for i in range(n):
+        for j in range(n):
+            print("*", end=" ")
+        print()
+
+square_pattern(3)
+
+
+# Return vs Print
+def square(n):
+    return n*n
+n = int(input("enter your number: "))   
+result = square(n)
+print("square is" , result)
+
+def square(n):
+    print(n*n)
+n = int(input("enter your number: "))   
+result = square(n)
+print("square is" , result)
+
+
+# Add using return
+def add(a,b):
+    return a+b 
+    
+result = add(10,5)
+print("sum is", result )
+
+
