@@ -61,7 +61,7 @@ print("Multiplication:", answer)
 # ------------------------------------------
 
 def show_number(num):
-    print("Number is:", num)
+    print("Number is:", num) 
 
 result = show_number(10)
 print(result)   # This prints None
@@ -74,8 +74,8 @@ print(result)   # This prints None
 # ------------------------------------------
 
 def check_even_odd(num):
-    if num % 2 == 0:
-        return "Even"
+    if num % 2 == 0:      #To check if it is even 
+        return "Even"  
     else:
         return "Odd"
 
