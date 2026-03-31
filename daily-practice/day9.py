@@ -71,3 +71,13 @@ result = add(10,5)
 print("sum is", result )
 
 
+# To find the cube value
+def cube(n):
+    return n*n*n
+
+n = int(input("Enter a number: "))
+result = cube(n)
+print(f"Cube of the number {n} is ", result)
+
+
+#To find the largest value
