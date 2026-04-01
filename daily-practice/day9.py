@@ -81,3 +81,34 @@ print(f"Cube of the number {n} is ", result)
 
 
 #To find the largest value
+def largest(a,b,c):
+    if a>=b and a>=c :
+        return a
+    elif  b>=c :
+        return b
+    else :
+        return c
+        
+a = int(input("Enter your first  number: "))
+b = int(input("Enter your second number: "))
+c = int(input("Enter your third number: "))
+
+result = largest(a,b,c)
+print(result)
+
+
+
+#function calling another function  
+def square(n):
+    return n*n 
+    
+def fourth_power(n):
+    return n*n*square(n)
+ 
+n = int(input("Enter your number: "))
+    
+result = square(n)
+result2 = fourth_power(n)
+
+print(result)
+print(result2)
