@@ -92,3 +92,27 @@ def square(num):
     return num * num
 
 print("Square:", square(9))
+
+
+
+
+
+#mini problem 
+def square(n):
+    return n*n
+    
+def cube(n):
+    return n*square(n)
+    
+def power_sum(n):
+    return cube(n)+square(n)
+
+n = int(input("Enter your number: "))
+   
+result1 = square(n)
+result2 = cube(n)
+result3 = power_sum(n)
+
+print("square",result1)
+print("cube",result2)
+print("power sum",result3)
