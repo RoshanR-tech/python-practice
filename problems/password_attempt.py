@@ -1,10 +1,10 @@
 correct_password = "python123"
 attempts = 0
-max_attempts = 3
+max_attempts = 5
 
 while attempts < max_attempts:
 
-    password = input("Enter password: ")
+    password = input("Enter your  password: ")
 
     if password == correct_password:
         print("Access Granted")
@@ -16,5 +16,5 @@ while attempts < max_attempts:
         if attempts == max_attempts:
             print("Account Locked")
         else:
-            print("Wrong password")
+            print("Thats the wrong password")
             print("Attempts left:", max_attempts - attempts)
