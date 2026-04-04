@@ -97,7 +97,7 @@ print("Square:", square(9))
 
 
 
-#mini problem 
+#mini problem code  
 def square(n):
     return n*n
     
@@ -116,3 +116,7 @@ result3 = power_sum(n)
 print("square",result1)
 print("cube",result2)
 print("power sum",result3)
+
+
+
+
