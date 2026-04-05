@@ -9,13 +9,12 @@ def mul(a,b):
 def div(a,b):
     return a/b
 
-if __name__ == "__main__": 
-    
-print("\n----MENU----")
-print("1. Addition")
-print("2. Subtraction")
-print("3. Multiplication")
-print("4. division")
+if __name__ == "__main__":
+    print("\n----MENU----")
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. division")
 
 choice = int(input("Select a function: "))
 
@@ -39,8 +38,11 @@ elif choice == 4:
     if b == 0:
         print("cannot be divided. ")
     else: 
-    result = div(a,b)
-    print(f"division of the numbers {a} and {b} is: ",result)
+        result = div(a,b)
+        print(f"division of the numbers {a} and {b} is: ",result)
     
 else :
     print("Invalid. choose numbers in from 1-4")
+
+    
+
