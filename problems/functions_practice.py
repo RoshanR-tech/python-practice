@@ -120,3 +120,29 @@ print("power sum",result3)
 
 
 
+
+#General calculator 
+def calc(a, b, operation="add"):
+
+    if operation == "add":
+        return a + b
+
+    elif operation == "sub":
+        return a - b
+
+    elif operation == "mul":
+        return a * b
+
+    elif operation == "div":
+        if b == 0:
+            return "Invalid"
+        else :
+            return a/b
+    else:
+        return "Invalid operation"
+
+
+print(calc(5,3))
+print(calc(5,3,"sub"))
+print(calc(5,3,"mul"))
+print(calc(5,0,"div"))
