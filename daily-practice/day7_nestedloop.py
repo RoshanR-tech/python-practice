@@ -37,3 +37,9 @@ for i in range(5,0,-1):              # Decreasing number triangle (rows from 5 t
     for j in range(1 , i+1):         # Prints number i, i times
         print(i , end=" ")           # Print row number (i)
     print()                          # Move to next row
+
+
+for i in range (6):
+    for j in range (6):
+        print("*" , end = " ")
+    print()
