@@ -37,3 +37,11 @@ print(result)
 def student(name="Roshan.R" , course):
     print(f"{name} is learning {course})
 student("vihitha")
+
+
+def student(name , course="python"):
+    print(f"{name} is learning {course}")
+    
+student("Roshan.R") #default argument (python will be assigned automatically to course)
+student(course="Java",name="vihitha") #key word argument (order does not matter if it is directly assigned)
+
