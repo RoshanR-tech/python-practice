@@ -80,9 +80,9 @@ print("total number:", total)
                
 #problem 8
 while True:
- n = int(input("enter your number: "))
+ n = int(input("Enter your number: "))
  if n==  0:
-  print("bye")
+  print("Bye")
   break
 else :
-  print("hello")
+  print("hello , How are you???")
