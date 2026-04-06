@@ -31,3 +31,9 @@ b = int(input("Enter your number: "))
 
 result = sum(a,b)
 print(result)
+
+# Error statement 
+# last variables are to be assigned first
+def student(name="Roshan.R" , course):
+    print(f"{name} is learning {course})
+student("vihitha")
