@@ -380,3 +380,178 @@ def average(a,b):
     return avg
 
 print(average(4,6))
+
+
+
+
+
+
+# ============================================
+# DAY 10 – MISTAKE MONITORING (FUNCTIONS)
+# Tracking mistakes I made while learning functions
+# ============================================
+
+
+# ============================================
+# Mistake 1: Expecting output without calling function
+# ============================================
+
+# Mistake I did:
+def add(a,b):
+    print(a+b)
+
+# I expected output here without calling function
+
+
+# Why it happened:
+# Function only runs when it is called.
+
+
+# Solution:
+# Call the function
+
+add(5,3)
+
+
+
+# ============================================
+# Mistake 2: Confusion between print and return
+# ============================================
+
+# Mistake I did:
+
+def sum(a,b):
+    print(a+b)
+
+result = sum(4,6)
+
+print(result)
+
+# Output showed None
+
+
+# Why it happened:
+# Print only displays value.
+# It does not send value back.
+
+
+# Solution:
+# Use return instead of print.
+
+def sum(a,b):
+    return a+b
+
+result = sum(4,6)
+
+print(result)
+
+
+
+# ============================================
+# Mistake 3: Function returning None
+# ============================================
+
+# Mistake I did:
+
+def test():
+    print("Hello")
+
+value = test()
+
+print(value)
+
+
+# Why it happened:
+# If return is not written, python automatically returns None.
+
+
+# Solution:
+# Only store function if it returns something.
+
+def test():
+    return "Hello"
+
+value = test()
+
+print(value)
+
+
+
+# ============================================
+# Mistake 4: Not understanding global variable usage
+# ============================================
+
+# Mistake I did:
+
+x = 10
+
+def change():
+    x = 20
+
+change()
+
+print(x)
+
+
+# Why it happened:
+# Python created a local variable instead of changing global.
+
+
+# Solution:
+# Use global keyword.
+
+x = 10
+
+def change():
+    global x
+    x = 20
+
+change()
+
+print(x)
+
+
+
+# ============================================
+# Mistake 5: Confusion between lambda and normal function
+# ============================================
+
+# What I thought:
+# Lambda can replace every function.
+
+
+# What I learned:
+# Lambda is only good for small one line expressions.
+# Normal functions are better for complex logic.
+
+
+# Example:
+
+square = lambda x : x*x
+
+print(square(5))
+
+
+def square2(x):
+    return x*x
+
+print(square2(5))
+
+
+
+# ============================================
+# KEY LEARNINGS FROM TODAY
+# ============================================
+
+# 1 Functions only work when called
+# 2 Print shows value, return sends value back
+# 3 Functions return None if return is missing
+# 4 Global keyword modifies global variable
+# 5 Lambda is for short functions only
+
+
+# ============================================
+# PERSONAL NOTE:
+# I should focus more on understanding return vs print
+# because most of my mistakes came from this confusion.
+# ============================================
