@@ -42,7 +42,7 @@ elif choice == 4:
         print(f"division of the numbers {a} and {b} is: ",result)
     
 else :
-    print("Invalid. choose numbers in from 1-4")
+    print("Invalid option .Please choose a numbers from 1-4")
 
     
 
