@@ -146,3 +146,18 @@ print(calc(5,3))
 print(calc(5,3,"sub"))
 print(calc(5,3,"mul"))
 print(calc(5,0,"div"))
+
+
+
+
+#even and odd checker 
+def check_even_odd(n):
+    
+    if n%2==0:
+        return "Even"
+    else :
+        return "Odd"
+        
+n=int(input("Enter a number: "))
+result = check_even_odd(n)
+print(result)
