@@ -36,3 +36,16 @@ print(add(5, 3))
 print(subtract(10, 4))
 print(multiply(2, 6))
 print(divide(8, 2))
+
+
+
+
+# Even or Odd Checker
+# Concept: modulus operator, conditionals
+
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
