@@ -49,3 +49,42 @@ if num % 2 == 0:
     print("Even")
 else:
     print("Odd")
+
+
+
+
+# Factorial Program
+# Concept: for loop, functions
+
+def factorial(n):
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
+
+print(factorial(5))
+
+
+
+# Multiplication Table
+# Concept: for loop
+
+num = int(input("Enter a number: "))
+
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
+
+
+
+# Palindrome Checker
+# Concept: string slicing
+
+text = input("Enter a word: ")
+
+if text == text[::-1]:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
+
+
+
