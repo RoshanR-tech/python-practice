@@ -1,3 +1,4 @@
+#Single defining for multiple functions
 def calculate(a,b):
     addition = a+b 
     difference = a-b
