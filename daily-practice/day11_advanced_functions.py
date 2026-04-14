@@ -71,4 +71,4 @@ elif choice == 4:
     print("Result = ",div(a,b))
     
 else :
-    print("Invalid , enter a number in btw 1-4")
+    print("Invalid , enter a number in btw 1-4")    #Detailing 
