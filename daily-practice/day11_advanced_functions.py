@@ -76,6 +76,7 @@ else :
 
 
 #using while loop to create a menu driven calculator using functions
+# better way to write the above code using while loop and also adding square function in the menu
 def add(a,b):
     return a+b
 def sub(a,b):
@@ -87,14 +88,16 @@ def div(a,b):
         return "Cannot be divided by 0"
     else :
         return a/b
-
+def square(n):
+    return n*n
+    
 while True:
     print("\n___Menu___")
-    print("1.Addition")
-    print("2.Subtraction")
-    print("3.Multiplication")
-    print("4.Division")
-
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. Division")
+    print("5. Square")
     choice = int(input("Select a function: "))
 
         
@@ -114,7 +117,9 @@ while True:
         a = int(input("Enter a number: "))
         b = int(input("Enter a number: "))
         print("Result =", div(a,b))
-        
+    elif choice == 5:
+        n = int(input("Enter your number"))
+        print("result =",square(n))
         break  
     else:
         print("Invalid, choose a number from 1-4")
