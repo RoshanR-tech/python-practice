@@ -22,3 +22,12 @@ result1 = add_print(2,2)
 result2 = add_return(2,2)
 print(result1)
 print(result2)
+
+#nested functions
+def square(n):
+    return n*n
+def double(n):
+    return n*2
+    
+result = double(square(3))    #square operation is done first and later moved to double 
+print(result)
