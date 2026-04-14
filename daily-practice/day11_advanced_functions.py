@@ -97,17 +97,22 @@ while True:
 
     choice = int(input("Select a function: "))
 
-
-    a = int(input("Enter a number: "))
-    b = int(input("Enter a number: "))
         
     if choice == 1:
+        a = int(input("Enter a number: "))
+        b = int(input("Enter a number: "))
         print("Result =", add(a,b))
     elif choice == 2:
+        a = int(input("Enter a number: "))
+        b = int(input("Enter a number: "))
         print("Result =", sub(a,b))
     elif choice == 3:
+        a = int(input("Enter a number: "))
+        b = int(input("Enter a number: "))
         print("Result =", mul(a,b))
     elif choice == 4:
+        a = int(input("Enter a number: "))
+        b = int(input("Enter a number: "))
         print("Result =", div(a,b))
         
         break  
