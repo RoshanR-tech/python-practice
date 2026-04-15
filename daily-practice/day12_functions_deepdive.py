@@ -24,3 +24,13 @@ def division(a,b):
         return "cannot be divided by 0"
     else :
         return a/b 
+
+
+#multiple functions with nested functions
+def square(n):
+    return n*n
+def double(n):
+    return n*2
+    
+result = square(double(5))
+print(result)
