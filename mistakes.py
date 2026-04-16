@@ -537,11 +537,7 @@ def square2(x):
 
 print(square2(5))
 
-
-
-# ============================================
 # KEY LEARNINGS FROM TODAY
-# ============================================
 
 # 1 Functions only work when called
 # 2 Print shows value, return sends value back
@@ -550,8 +546,118 @@ print(square2(5))
 # 5 Lambda is for short functions only
 
 
-# ============================================
-# PERSONAL NOTE:
-# I should focus more on understanding return vs print
-# because most of my mistakes came from this confusion.
-# ============================================
+# Simple Python Practice Codes
+
+## 1. Addition Function
+
+def add(a, b):
+return a + b
+
+print(add(2, 3))
+
+## 2. Even or Odd
+
+num = int(input("Enter number: "))
+if num % 2 == 0:
+print("Even")
+else:
+print("Odd")
+
+## 3. Sum of First N Numbers
+
+n = int(input("Enter n: "))
+total = 0
+
+for i in range(1, n + 1):
+total += i
+
+print(total)
+
+## 4. Multiplication Table
+
+n = int(input("Enter number: "))
+
+for i in range(1, 11):
+print(n, "x", i, "=", n * i)
+
+## 5. Find Largest of 3 Numbers
+
+a = int(input())
+b = int(input())
+c = int(input())
+
+if a > b and a > c:
+print(a)
+elif b > c:
+print(b)
+else:
+print(c)
+
+## 6. Count Digits in Number
+
+num = int(input("Enter number: "))
+count = 0
+
+while num > 0:
+num = num // 10
+count += 1
+
+print(count)
+
+## 7. Reverse a Number
+
+num = int(input("Enter number: "))
+rev = 0
+
+while num > 0:
+digit = num % 10
+rev = rev * 10 + digit
+num = num // 10
+
+print(rev)
+
+## 8. Simple Calculator
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("1.Add 2.Sub 3.Mul 4.Div")
+choice = int(input("Choose: "))
+
+if choice == 1:
+print(a + b)
+elif choice == 2:
+print(a - b)
+elif choice == 3:
+print(a * b)
+elif choice == 4:
+if b != 0:
+print(a / b)
+else:
+print("Error")
+
+## 9. Check Palindrome Number
+
+num = int(input("Enter number: "))
+temp = num
+rev = 0
+
+while num > 0:
+digit = num % 10
+rev = rev * 10 + digit
+num = num // 10
+
+if temp == rev:
+print("Palindrome")
+else:
+print("Not Palindrome")
+
+## 10. Factorial of Number
+
+n = int(input("Enter number: "))
+fact = 1
+
+for i in range(1, n + 1):
+fact *= i
+
+print(fact)
