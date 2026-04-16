@@ -547,15 +547,14 @@ print(square2(5))
 
 
 # Simple Python Practice Codes
-
-## 1. Addition Function
+# 1. Addition Function
 
 def add(a, b):
 return a + b
 
 print(add(2, 3))
 
-## 2. Even or Odd
+# 2. Even or Odd
 
 num = int(input("Enter number: "))
 if num % 2 == 0:
@@ -563,7 +562,7 @@ print("Even")
 else:
 print("Odd")
 
-## 3. Sum of First N Numbers
+# 3. Sum of First N Numbers
 
 n = int(input("Enter n: "))
 total = 0
@@ -573,14 +572,14 @@ total += i
 
 print(total)
 
-## 4. Multiplication Table
+# 4. Multiplication Table
 
 n = int(input("Enter number: "))
 
 for i in range(1, 11):
 print(n, "x", i, "=", n * i)
 
-## 5. Find Largest of 3 Numbers
+# 5. Find Largest of 3 Numbers
 
 a = int(input())
 b = int(input())
@@ -593,7 +592,7 @@ print(b)
 else:
 print(c)
 
-## 6. Count Digits in Number
+# 6. Count Digits in Number
 
 num = int(input("Enter number: "))
 count = 0
@@ -604,7 +603,7 @@ count += 1
 
 print(count)
 
-## 7. Reverse a Number
+# 7. Reverse a Number
 
 num = int(input("Enter number: "))
 rev = 0
@@ -616,7 +615,7 @@ num = num // 10
 
 print(rev)
 
-## 8. Simple Calculator
+# 8. Simple Calculator
 
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
@@ -636,7 +635,7 @@ print(a / b)
 else:
 print("Error")
 
-## 9. Check Palindrome Number
+# 9. Check Palindrome Number
 
 num = int(input("Enter number: "))
 temp = num
@@ -652,7 +651,7 @@ print("Palindrome")
 else:
 print("Not Palindrome")
 
-## 10. Factorial of Number
+# 10. Factorial of Number
 
 n = int(input("Enter number: "))
 fact = 1
