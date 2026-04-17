@@ -306,3 +306,13 @@ while True:
     else:
 
         print("Invalid choice")
+
+
+#lambda functions 
+cube = lambda n : n*n*n
+square = lambda n : n*n
+double = lambda n : n*2 
+n = int(input("Enter your number: "))
+print(f"cube of the number {n} is",cube(n))
+print(f"square of the number {n} is",square(n))
+print(f"double of the number {n} is",double(n))
