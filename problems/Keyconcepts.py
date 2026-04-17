@@ -15,7 +15,7 @@ while guess != secret_number:
 
 
 
-# Simple Calculator
+# Simple Calculator using functions
 # Concept: functions, return statement
 
 def add(a, b):
