@@ -7,7 +7,7 @@ while True:
     if marks == -1:
         break
 
-    if marks < 0 or marks > 100:
+    if marks < 0 or marks > 100:    #limit
         print("Invalid marks")
         break
 
