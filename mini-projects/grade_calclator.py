@@ -2,7 +2,7 @@ total = 0     #initial values
 count = 0     
 
 while True:
-    marks = int(input("Enter marks (-1 to stop): "))    
+    marks = int(input("Enter marks (-1 to stop): "))    #cannot be negative 
 
     if marks == -1:
         break
