@@ -49,8 +49,8 @@ print(f"total number divisible by 5 : {divisable_by_5}")
 
 #problem 5
 correct = 1234
-while True :
-    password = int(input("enter your number: "))
+while True :                                              #infinite loop
+    password = int(input("enter your number: "))      
     if correct == password :
         print("access granted")
         break 
