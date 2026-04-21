@@ -112,6 +112,7 @@ for i in range (5,0,-1):         #reverse triangle
     print()
 
 #lambda 
+#alternate for def function
 cube = lambda n : n*n*n
 square = lambda n : n*n
 double = lambda n : n*2 
