@@ -4,7 +4,7 @@ while n<=5:
     print(n)
     n = n+1 
 
-
+#decrease the number 
 n = 5 
 while n>=1:
     print(n)
