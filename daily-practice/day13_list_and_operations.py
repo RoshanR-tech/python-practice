@@ -12,3 +12,12 @@ nums.insert(1 , 10) #nums.insert(index , value)
 nums.remove(2)
 nums.pop(-1) #automatically removs last element but still using -1 just for better understanding
 print(nums)
+
+#using for loop 
+total = 0 
+nums = [5,10,15,20]
+for num in nums :
+    print(num)
+    total = total + num 
+
+print(total)
