@@ -8,7 +8,7 @@ print(nums)
 #list methods
 nums = [1,2,3]
 nums.append(4)
-nums.insert(1 , 10) 
+nums.insert(1 , 10) #nums.insert(index , value)
 nums.remove(2)
-nums.pop(-1)
+nums.pop(-1) #automatically removs last element but still using -1 just for better understanding
 print(nums)
