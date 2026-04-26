@@ -1,3 +1,4 @@
+#grade calculator 
 marks = int(input("enter your marks: "))
 
 if marks < 0 or marks > 100:
