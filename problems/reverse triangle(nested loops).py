@@ -5,18 +5,18 @@ for i in range (5 , 0 , -1):   #forms a reverse triangle
     
 for i in range (5 , 0 , -1):
     for j in range ( 1 , i+1):
-        print(j , end=" ")
+        print(j , end=" ")      #changing numbers
     print()
     
 for i in range (5 , 0 , -1):
     for j in range(1 , i+1):
-        print(i , end=" ")
+        print(i , end=" ")      #same numbers
     print()
     
 num = 1
 for i in range (5 , 0 , -1):
     for j in range(1 , i+1):
-        print(num , end=" ")
+        print(num , end=" ")    #counting of numbers
         num += 1
     print()
     
