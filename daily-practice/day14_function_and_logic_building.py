@@ -35,25 +35,25 @@ print(result)
 
 
 #better version of the above code
-n = int(input("Enter a number: "))
+n = int(input("Enter a number : "))
 
 def is_even(n):
-    return n % 2 == 0
-
+    return n%2 == 0  
+    
 def is_positive(n):
     return n > 0
-
+    
 def check_number(n):
     if is_positive(n):
         if is_even(n):
-            print("Positive Even")
-        else:
-            print("Positive Odd")
-    else:
+            print("positive even num")
+        else :
+            print("positive num")
+    else :
         if is_even(n):
-            print("Negative Even")
-        else:
-            print("Negative Odd")
+            print("negative even num")
+        else :
+            print("negative odd num")
 
 check_number(n)
 
