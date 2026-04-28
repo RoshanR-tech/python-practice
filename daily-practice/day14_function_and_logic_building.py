@@ -58,3 +58,19 @@ def check_number(n):
 check_number(n)
 
 
+#print vs return logic building 
+n = int(input("Enter a number : "))
+
+def calculate_square(n):
+    return n*n
+    
+def calculate_cube(n):
+    return n*n*n
+    
+def check_number_type(n):
+    if n%2==0 :
+        return calculate_square(n)
+    else :
+        return calculate_cube(n)
+        
+print(check_number_type(n))
