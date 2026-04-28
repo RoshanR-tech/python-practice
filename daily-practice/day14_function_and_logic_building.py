@@ -1,4 +1,4 @@
-#logic building
+#Basic logic building
 n = int(input("Enter a numer : "))
 def is_even(n):
     if n%2==0 :
