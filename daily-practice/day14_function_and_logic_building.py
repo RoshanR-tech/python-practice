@@ -1,3 +1,4 @@
+#logic building using functions
 #Basic logic building
 n = int(input("Enter a numer : "))
 def is_even(n):
