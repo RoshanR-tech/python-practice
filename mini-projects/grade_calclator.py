@@ -1,3 +1,4 @@
+#grade calculation by entering your marks 
 total = 0     #initial values  
 count = 0     
 
