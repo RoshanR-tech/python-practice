@@ -18,7 +18,7 @@ total = 0
 nums = [5,10,15,20]
 for num in nums :
     print(num)
-    total = total + num 
+    total = total + num #total increament 
 
 print(total)
 
