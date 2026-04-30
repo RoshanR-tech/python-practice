@@ -660,3 +660,37 @@ for i in range(1, n + 1):
 fact *= i
 
 print(fact)
+
+
+
+#Messy error in the check number part 
+n = int(input("Enter a number : "))
+
+def is_even(n):
+    return n % 2 == 0
+        
+def is_odd(n):
+    return n % 2 != 0 
+    
+def is_positive(n):
+    return n > 0
+        
+def check_number(n) :
+    if is_positive(n):
+        if is_even(n) :
+            print("Even positive number .")
+        
+        elif is_even(n) :
+            print("Even negative number . ")
+        
+        
+    else :
+        if is_odd(n):
+            if is_positive(n):
+                print("Odd positive number . ")
+                
+            elif is_odd(n):
+                print("Odd negative number . ")
+      
+        
+check_number(n)
