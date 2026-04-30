@@ -101,3 +101,40 @@ def check_divisibility(n):
         
         
 check_divisibility(n)
+
+
+
+#complex structure 
+n = int(input("Enter a number: "))
+
+def is_positive(n):
+    return n > 0
+
+def is_even(n):
+    return n % 2 == 0
+
+def get_number_type(n):
+    if is_positive(n):
+        return "Positive"
+    else:
+        return "Negative"
+
+def calculate_square(n):
+    return n * n
+
+def calculate_cube(n):
+    return n * n * n
+
+def process_number(n):
+    if get_number_type(n) == "Positive":
+        if is_even(n):
+            print(calculate_square(n))
+        else:
+            print(calculate_cube(n))
+    else:
+        if is_even(n):
+            print(abs(n))
+        else:
+            print("Invalid input")
+
+process_number(n)
