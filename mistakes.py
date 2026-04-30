@@ -694,3 +694,41 @@ def check_number(n) :
       
         
 check_number(n)
+
+
+
+#Broken logic error
+n = int(input("Enter a number : "))
+
+def is_positive(n):
+    return n > 0
+    
+def is_even(n):
+    return n % 2 == 0 
+    
+def get_number_type(n):
+    if is_positive(n) :
+        return "Positive"
+    else :
+        return "Negative"
+
+get_number_type(n)
+        
+def process_number(n):
+    if is_positive(n):
+        if is_even(n):
+            print(n*n)
+            
+    elif is_positive(n):
+        result = is_positive(n)
+        print(result)
+        return n*n*n
+        
+    elif is_even(n):
+        if n < 0 :
+            print(-n)
+            
+    else :
+        print("Invalid Input")
+        
+process_number(n)
