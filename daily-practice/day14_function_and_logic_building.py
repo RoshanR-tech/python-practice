@@ -77,7 +77,7 @@ print(check_number_type(n))
 
 
 
-
+#divisibility logic 
 n = int(input("Enter a number: "))
 
 def is_divisible_by_3(n):
