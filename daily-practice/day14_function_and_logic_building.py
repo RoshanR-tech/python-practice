@@ -78,22 +78,26 @@ print(check_number_type(n))
 
 
 #divisibility logic 
-n = int(input("Enter a number: "))
+n = int(input("Enter a number : "))
 
 def is_divisible_by_3(n):
     return n % 3 == 0
-
+        
 def is_divisible_by_5(n):
-    return n % 5 == 0
-
+    return n % 5 == 0 
+        
 def check_divisibility(n):
     if is_divisible_by_3(n) and is_divisible_by_5(n):
-        print("Divisible by 3 and 5")
+        print("divisible by 3 and 5.")
+        
     elif is_divisible_by_3(n):
-        print("Divisible by 3")
+        print("divisible by 3.")
+      
     elif is_divisible_by_5(n):
-        print("Divisible by 5")
-    else:
-        print("Not divisible by 3 or 5")
-
+        print("divisible by 3.")
+        
+    else : 
+        print("divisible by none. ")
+        
+        
 check_divisibility(n)
