@@ -5,9 +5,9 @@ if age >= 18 :
 else :
     print("you are a minor , Not eligible to vote ")
 
-#VOTING CRITERIA 
+# senior citizenship  
 age = int(input("enter your age: "))
-if age >= 90 :
+if age >= 60 :
     print("you are a senior citizen ")
 elif age >= 18 :
     print("you are an adult ")
