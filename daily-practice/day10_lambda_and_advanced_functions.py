@@ -35,7 +35,12 @@ print(multiplication(2,3))
 print(greater(2,3))
 print(is_positive(3))
 
-
+#basic mathematic function 
+a = int(input("enter a number")
+b = int(input("enter a number")
+add = lambda a,b : a+b
+substract = lambda a,b : a-b
+multiply = lambda a,b : a*b
 
 # ============================================
 # DAY 10 – FUNCTIONS PRACTICE
