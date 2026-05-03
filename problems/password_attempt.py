@@ -1,6 +1,7 @@
-correct_password = "python123"
+#password system
+correct_password = "python@123"
 attempts = 0
-max_attempts = 5
+max_attempts = 10
 
 while attempts < max_attempts:
 
