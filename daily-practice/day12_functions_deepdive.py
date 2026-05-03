@@ -12,7 +12,7 @@ def division(a,b):
         return a/b 
 
 
-#Print vs Return 
+#Print vs Return functions 
 def addition(a,b):
     return a+b
 def subtraction(a,b):
