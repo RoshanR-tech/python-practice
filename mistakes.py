@@ -725,7 +725,7 @@ def process_number(n):
         return n*n*n
         
     elif is_even(n):
-        if n < 0 :
+        if n < 0 :                     #messy loop statements 
             print(-n)
             
     else :
