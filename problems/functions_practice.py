@@ -180,3 +180,13 @@ c=int(input("Enter a number: "))
 
 result = max_of_three(a,b,c)
 print(f"The largest among {a} , {b} and {c} is :",result)
+
+
+
+#normal function 
+def add_ten(x):
+    return x + 10
+print(add_ten(5)) # Output: 15
+#lambda function 
+add_ten = lambda x: x + 10
+print(add_ten(5)) # Output: 15
