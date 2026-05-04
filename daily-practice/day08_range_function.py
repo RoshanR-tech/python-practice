@@ -126,6 +126,15 @@ for i in range(1, 6):
     print(i)
 # Output: 1, 2, 4, 5 (Notice 3 is missing!)
 
+
+#working of break 
+for i in range(1, 6):
+    if i == 3:
+        break
+    print(i)
+# Output: 1, 2 (Notice it stops before 3 and never reaches 4 or 5)
+
+
 # Author: Roshan R
 # Course: Python Fundamentals
 # Day: 8
