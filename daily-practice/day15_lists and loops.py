@@ -1,5 +1,5 @@
 #basic list and loops code 
-numbers = []
+numbers = []              #creates a list 
 for i in range(5):
     num = int(input("Enter number: "))
     numbers.append(num)
