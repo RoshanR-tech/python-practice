@@ -20,7 +20,7 @@ for i in range (5 , 0 , -1):   #counts from 5 to 1
         num += 1
     print()
     
-for i in range (1, 6):             #logical thinking 
+for i in range (1, 6):             #counts from 1 to 5 
     for j in range (1, i+1):       #logical thinking 
         print(6-j , end=" ")
     print()
