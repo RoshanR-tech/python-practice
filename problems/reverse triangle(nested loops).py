@@ -14,13 +14,13 @@ for i in range (5 , 0 , -1):
     print()
     
 num = 1
-for i in range (5 , 0 , -1):
+for i in range (5 , 0 , -1):   #counts from 5 to 1 
     for j in range(1 , i+1):
         print(num , end=" ")    #counting of numbers
         num += 1
     print()
     
-for i in range (1, 6):        #logical thinking 
-    for j in range (1, i+1):
+for i in range (1, 6):             #logical thinking 
+    for j in range (1, i+1):       #logical thinking 
         print(6-j , end=" ")
     print()
