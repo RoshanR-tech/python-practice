@@ -119,6 +119,13 @@ for i in range(1,8):
     print(i)
 
 
+# working of continue 
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+# Output: 1, 2, 4, 5 (Notice 3 is missing!)
+
 # Author: Roshan R
 # Course: Python Fundamentals
 # Day: 8
