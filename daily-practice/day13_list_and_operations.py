@@ -28,7 +28,7 @@ even_nums = []
 odd_nums = []
 
 for num in nums :
-    if num % 2 == 0 :
+    if num % 2 == 0 :                #main logic 
         even_nums.append(num)
     else :
         odd_nums.append(num)
