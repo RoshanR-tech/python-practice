@@ -708,7 +708,7 @@ def is_even(n):
     
 def get_number_type(n):
     if is_positive(n) :
-        return "Positive"
+        return "Positive"    #print function too could be used 
     else :
         return "Negative"
 
