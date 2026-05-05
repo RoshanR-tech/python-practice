@@ -656,7 +656,7 @@ print("Not Palindrome")
 n = int(input("Enter number: "))
 fact = 1
 
-for i in range(1, n + 1):
+for i in range(1, n + 1):            #wrong logic
 fact *= i
 
 print(fact)
