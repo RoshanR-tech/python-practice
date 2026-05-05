@@ -8,7 +8,7 @@ student("ankit","java")
 def student(name , course="Python"):
     print(f"Hello {name} loves {course}")
 student("Roshan.R")
-student(course="Java",name="Ankith")
+student(course="Java",name="Ankith")      #order doesn't matter if it's specified 
 
 
 # difference btw return and print
@@ -44,4 +44,4 @@ def student(name , course="python"):
     
 student("Roshan.R") #default argument (python will be assigned automatically to course)
 student(course="Java",name="vihitha") #key word argument (order does not matter if it is directly assigned)
-
+student("vihitha","java") #follows the order 
