@@ -9,7 +9,7 @@ def mul(a,b):
 def div(a,b):
     return a/b
 
-if __name__ == "__main__":
+if __name__ == "__main__":    #this line is optional 
     print("\n----MENU----")
     print("1. Addition")
     print("2. Subtraction")
