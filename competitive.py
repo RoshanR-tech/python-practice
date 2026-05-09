@@ -17,5 +17,5 @@ elif total >= 10000 :
     discount = total*0.25 + 500 
     
 final_amount = total - discount 
-print("Total amount after discount : ",final_amount)
+print("Total amount after discount : ",final_amount) #f string can also be incuded 
     
