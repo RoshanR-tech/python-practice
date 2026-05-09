@@ -35,7 +35,6 @@ fixed_discount = 150
 discount = max(percentage_discount, fixed_discount)
 final_cost = subtotal – discount
 return int(final_cost)
-# Input
 n = int(input())
 items = [tuple(map(int, input().split())) for _ in range(n)]
 print(calculate_final_cost(items))
