@@ -21,9 +21,6 @@ print("Total amount after discount : ",final_amount) #f string can also be incud
     
 
 #fixed discount along with additional offers
-n = int(input())
-items = [tuple(map(int, input().split())) for _ in range(n)]
-print(calculate_final_cost(items))
 def calculate_final_cost(items):
 subtotal = 0
 for price, discount_percent in items:
@@ -38,4 +35,6 @@ fixed_discount = 150
 discount = max(percentage_discount, fixed_discount)
 final_cost = subtotal – discount
 return int(final_cost)
-
+n = int(input())  #input
+items = [tuple(map(int, input().split())) for _ in range(n)]
+print(calculate_final_cost(items))
