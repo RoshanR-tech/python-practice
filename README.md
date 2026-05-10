@@ -1,6 +1,2 @@
 # python-practice
-My Python learning programs
-
-
-
-Coding Journey
+My Python learning programs and Coding Journey
