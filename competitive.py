@@ -21,6 +21,7 @@ print("Total amount after discount : ",final_amount) #f string can also be incud
     
 
 #fixed discount along with additional offers
+#discount on item and discount based on the price of the bill
 def calculate_final_cost(items):
 subtotal = 0
 for price, discount_percent in items:
