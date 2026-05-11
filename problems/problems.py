@@ -74,7 +74,7 @@ while True :
     n = int(input("enter your number :"))
     if n== 0:
        break 
-    total = total + n 
+    total = total + n   #adds 
 print("total number:", total)
 
                
@@ -86,3 +86,5 @@ while True:
   break
 else :
   print("hello , How are you???")
+
+
