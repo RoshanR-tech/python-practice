@@ -5,7 +5,7 @@ for i in range (num_items):
     price = float(input(f"Enter the price of your item :"))
     total += price 
 
-print ("Total amount before discount : ",total)
+print ("Amount before discount : ",total)
 
 if total < 1000 :  #discount logic
     discount = 0
