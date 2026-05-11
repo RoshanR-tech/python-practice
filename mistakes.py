@@ -621,7 +621,7 @@ a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 
 print("1.Add 2.Sub 3.Mul 4.Div")
-choice = int(input("Choose: "))
+choice = int(input("Choose: "))    #bad print statement
 
 if choice == 1:
 print(a + b)
