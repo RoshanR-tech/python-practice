@@ -7,13 +7,13 @@ for i in range (num_items):
 
 print ("Total amount before discount : ",total)
 
-if total < 999 :  #discount logic
+if total < 1000 :  #discount logic
     discount = 0
-elif total >= 999 and total <= 4999 :   
+elif total >= 1000 and total <= 5000 :   
     discount = total * 0.10 
-elif total >= 4999 and total <= 9999 :
+elif total >= 5000 and total <= 10000 :
     discount = total*0.20 
-elif total >= 9999 :
+elif total >= 10000 :
     discount = total*0.25 + 500 
     
 final_amount = total - discount 
