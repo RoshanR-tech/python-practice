@@ -39,3 +39,15 @@ return int(final_cost)
 n = int(input())  #input
 items = [tuple(map(int, input().split())) for _ in range(n)]
 print(calculate_final_cost(items))
+
+
+
+#large number modula 
+# Input
+n, m = map(int, input().split())
+arr = list(map(int, input().split()))
+# Compute sum modulo
+total = 0
+for num in arr:
+ total = (total + num) % m
+print(total)
