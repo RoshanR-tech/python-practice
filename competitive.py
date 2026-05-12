@@ -51,3 +51,19 @@ total = 0
 for num in arr:
  total = (total + num) % m
 print(total)
+
+
+
+#Modular Exponentiation
+def mod_exp(a, m, p):
+result = 1
+a = a % p # reduce a initially
+while m > 0:
+ if m % 2 == 1: # if m is odd
+ result = (result * a) % p
+ a = (a * a) % p # square a
+ m = m // 2
+ return result
+# Input
+a, m, p = map(int, input().split())
+print(mod_exp(a, m, p))
