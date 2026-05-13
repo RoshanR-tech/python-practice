@@ -99,3 +99,18 @@ if mod_prod % k == 0:
  print(“Divisible”)
 else:
  print(“Not Divisible”)
+
+
+
+
+#Team Selection Count
+def combination(n, k):
+ if k > n:
+ return 0
+ k = min(k, n - k) # symmetry property
+ result = 1
+ for i in range(1, k + 1):
+ result = result * (n - i + 1) // i
+ return result
+n, k = map(int, input().split())
+print(combination(n, k))
