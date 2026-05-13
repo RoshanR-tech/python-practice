@@ -190,7 +190,7 @@ def number():
 x = number()
 
 print(x)   # None because print does not return value
-
+print("enter your numer")
 
 
 # ============================================
