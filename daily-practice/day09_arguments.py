@@ -12,7 +12,7 @@ student(course="Java",name="Ankith")      #order doesn't matter if it's specifie
 
 
 # difference btw return and print
-#For return
+#return function 
 def sum_return(a,b):
     return a+b
 
@@ -22,7 +22,7 @@ b = int(input("Enter your number: "))
 result = sum(a,b)
 print(result)
 
-# For print
+# print function 
 def sum_print(a,b):
     print(a+b)
 
