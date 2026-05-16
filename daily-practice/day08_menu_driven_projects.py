@@ -1,5 +1,5 @@
 while True :
-    print("\nmenu") #creates a new line 
+    print("\nmenu") #automatically creates a new line 
     print("1. print numbers from 1-10")
     print("2. even odd checker")
     print("3.exit")
