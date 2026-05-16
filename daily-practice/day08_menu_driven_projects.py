@@ -1,5 +1,5 @@
 while True :
-    print("\nmenu")
+    print("\nmenu") #creates a new line 
     print("1. print numbers from 1-10")
     print("2. even odd checker")
     print("3.exit")
@@ -27,7 +27,7 @@ while True :
 
 #menu driven program 2
 while True :
-    print("\nMenu")
+    print("\nMenu") 
     print("1. range function")
     print("2. sum of n numbers")
     print("3. sign checker")
