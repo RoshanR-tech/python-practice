@@ -1,7 +1,7 @@
 # Mini Project 2 - Scientific Calculator in Python
 # Concepts used: functions, loops, math module, conditionals
 
-import math
+import math #for mathematical functions 
 
 def add(a,b):
     return a+b
