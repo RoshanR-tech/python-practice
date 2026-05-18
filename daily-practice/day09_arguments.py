@@ -26,8 +26,8 @@ print(result)
 def sum_print(a,b):
     print(a+b)
 
-a = int(input("Enter your number: "))   
-b = int(input("Enter your number: "))  
+a = int(input("Enter a number: "))   
+b = int(input("Enter a number: "))  
 
 result = sum(a,b)
 print(result)
