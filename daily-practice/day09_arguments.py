@@ -8,7 +8,7 @@ student("ankit","java")
 def student(name , course="Python"):
     print(f"Hello {name} loves {course}")
 student("Roshan.R")
-student(course="Java",name="Ankith")      #order doesn't matter if it's specified 
+student(course="Java",name="Krish")      #order doesn't matter if it's specified 
 
 
 # difference btw return and print
