@@ -68,7 +68,7 @@ def add(a,b):
     return a+b 
     
 result = add(10,5)
-print("sum is", result )
+print("The total sum is", result )
 
 
 # To find the cube value
