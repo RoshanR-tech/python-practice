@@ -7,7 +7,7 @@ def multiplication(a,b):
     return a*b
 def division(a,b):
     if b == 0 :
-        return "cannot be divided by 0"
+        return "cannot be divided by 0"    #division rule
     else :
         return a/b 
 
