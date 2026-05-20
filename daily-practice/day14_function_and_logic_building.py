@@ -119,7 +119,7 @@ def get_number_type(n):
     else:
         return "Negative"
 
-def calculate_square(n):
+def calculate_square(n):  #square function 
     return n * n
 
 def calculate_cube(n):
