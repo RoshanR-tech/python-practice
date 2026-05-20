@@ -122,7 +122,7 @@ def get_number_type(n):
 def calculate_square(n):  #square function 
     return n * n
 
-def calculate_cube(n):
+def calculate_cube(n):    #cube function 
     return n * n * n
 
 def process_number(n):
