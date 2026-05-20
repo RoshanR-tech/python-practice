@@ -2,7 +2,7 @@
 numbers = []              #creates a list 
 for i in range(5):
     num = int(input("Enter number: "))
-    numbers.append(num)
+    numbers.append(num)  #adds to the last position 
 total = 0
 for num in numbers:
     total += num        #adding 
