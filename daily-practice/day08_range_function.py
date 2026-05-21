@@ -130,7 +130,7 @@ for i in range(1, 6):
 #working of break 
 for i in range(1, 6):
     if i == 3:
-        break
+        break    #loop stops here 
     print(i)
 # Output: 1, 2 (Notice it stops before 3 and never reaches 4 or 5)
 
