@@ -122,7 +122,7 @@ for i in range(1,8):
 # working of continue 
 for i in range(1, 6):
     if i == 3:
-        continue
+        continue  #skips that number 
     print(i)
 # Output: 1, 2, 4, 5 (Notice 3 is missing!)
 
