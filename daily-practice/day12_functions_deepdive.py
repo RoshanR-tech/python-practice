@@ -32,5 +32,5 @@ def square(n):
 def double(n):
     return n*2
     
-result = square(double(5))
+result = square(double(5)) #bracket clears first 
 print(result)
