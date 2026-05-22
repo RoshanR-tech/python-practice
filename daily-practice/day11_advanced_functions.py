@@ -89,7 +89,7 @@ def div(a,b):
     else :
         return a/b
 def square(n):
-    return n*n
+    return n*n  #if n = 5 , 5x5=25
     
 while True:
     print("\n___Menu___")
