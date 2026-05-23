@@ -85,7 +85,7 @@ def mul(a,b):
     return a*b
 def div(a,b):
     if b == 0:
-        return "Cannot be divided by 0"
+        return "Cannot be divided by 0"   #basic divisdion rule 
     else :
         return a/b
 def square(n):
