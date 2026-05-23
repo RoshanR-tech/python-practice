@@ -4,7 +4,7 @@ n = int(input("Enter a numer : "))
 def is_even(n):
     if n%2==0 :
         print("Yes it is Even")
-        return True
+        return True                    #binary functions 
     else :
         print("Yes it is Odd")
         return False
