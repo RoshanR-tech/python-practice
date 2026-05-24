@@ -135,6 +135,6 @@ def process_number(n):
         if is_even(n):
             print(abs(n))
         else:
-            print("Invalid input")
+            print("Invalid input")   #wrong inputs 
 
 process_number(n)
