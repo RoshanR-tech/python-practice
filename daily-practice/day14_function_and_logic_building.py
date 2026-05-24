@@ -73,7 +73,7 @@ def check_number_type(n):
     else :
         return calculate_cube(n)
         
-print(check_number_type(n))
+print(check_number_type(n))   #function calling 
 
 
 
