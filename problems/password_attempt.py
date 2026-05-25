@@ -1,5 +1,5 @@
 #password system
-correct_password = "python@123"
+correct_password = "python@12345"
 attempts = 0
 max_attempts = 10
 
