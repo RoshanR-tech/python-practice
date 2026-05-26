@@ -19,7 +19,7 @@ if __name__ == "__main__":    #this line is optional
 choice = int(input("Select a function: "))
 
     
-a = int(input("Enter the first number: "))
+a = int(input("Enter your first number: "))
 b = int(input("Enter your next number: "))
 
 if choice == 1:
