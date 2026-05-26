@@ -19,8 +19,8 @@ if __name__ == "__main__":    #this line is optional
 choice = int(input("Select a function: "))
 
     
-a = int(input("Enter your first number: "))
-b = int(input("Enter your second number: "))
+a = int(input("Enter a number: "))
+b = int(input("Enter your next number: "))
 
 if choice == 1:
     result = add(a,b)
