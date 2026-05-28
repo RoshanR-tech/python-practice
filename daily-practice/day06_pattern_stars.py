@@ -1,6 +1,6 @@
 #increase the number 
 n = 1 
-while n<=5:
+while n<=5:   #range 
     print(n)
     n = n+1 
 
