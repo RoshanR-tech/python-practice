@@ -18,7 +18,7 @@ while True :
             print("odd number")
             
     elif choice == 3 :
-        print("exiting the program........")
+        print("quiting the program........")
         break 
     
     else :
