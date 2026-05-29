@@ -16,7 +16,7 @@ if __name__ == "__main__":    #this line is optional
     print("3. Multiplication")
     print("4. division")
 
-choice = int(input("Select a function: "))
+choice = int(input("Select a function: "))            #select from the print menu 
 
     
 a = int(input("Enter your first number: "))
