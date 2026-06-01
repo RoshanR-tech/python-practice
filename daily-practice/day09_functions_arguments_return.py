@@ -94,7 +94,7 @@ b = int(input("Enter your second number: "))
 c = int(input("Enter your third number: "))
 
 result = largest(a,b,c)
-print(result)
+print("results are " , result)
 
 
 
