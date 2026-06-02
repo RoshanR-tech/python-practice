@@ -3,7 +3,7 @@ odd_count = 0
 total = 0
 largest = None
 
-for i in range(10):
+for i in range(5):
     num = int(input("Enter a number: "))
 
     total = total + num
