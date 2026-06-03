@@ -1,6 +1,6 @@
 #basic list and loops code 
 numbers = []              #creates a list 
-for i in range(5):
+for i in range(10):
     num = int(input("Enter number: "))
     numbers.append(num)  #adds to the last position 
 total = 0
