@@ -7,7 +7,7 @@ country = input("Enter your country:")
 print("\n--- Your Details ---")
 print("Name:", name)
 print("Age:", age)
-print("country:", country)
-print("City:", city)
+print("city:", city)
+print("Country:", country)
 
 
