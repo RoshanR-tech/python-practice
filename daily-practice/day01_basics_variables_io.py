@@ -10,5 +10,7 @@ print("Name:", name)
 print("Age:", age)
 print("city:", city)
 print("Country:", country)
+print("college:",college)
+
 
 
