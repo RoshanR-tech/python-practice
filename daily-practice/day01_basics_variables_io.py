@@ -8,7 +8,6 @@ print("\n--- Your Details ---")
 print("Name:", name)
 print("Age:", age)
 print("city:", city)
-print("country:", country) 
 
 
 
