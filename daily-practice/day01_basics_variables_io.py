@@ -2,7 +2,6 @@
 name = input("Enter your name: ")
 age = input("Enter your age: ")
 city = input("Enter your city: ")
-countrty = input("enter your city:")
 #print functions
 print("\n--- Your Details ---")
 print("Name:", name)
