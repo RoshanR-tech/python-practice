@@ -7,7 +7,7 @@ print(f"my name is {name}",f"I AM {age} years old",f"I live in {city}",f"I am st
 #basic mathematical functions 
 a = 15
 b = 4
-print("Addition:", a + b)
+print("Addition:", a // b)
 print("Subtraction:", a - b)
 print("Multiplication:", a * b)
 print("Division:", a / b)   
