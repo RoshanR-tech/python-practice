@@ -5,7 +5,7 @@ college = "presidency university"
 print(f"my name is {name}",f"I AM {age} years old",f"I live in {city}",f"I am studying in {college}",sep="\n")
 
 #basic mathematical functions 
-a = 16
+a = 20
 b = 4
 print("Addition:", a + b)
 print("Subtraction:", a - b)
