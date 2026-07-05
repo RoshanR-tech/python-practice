@@ -18,4 +18,4 @@ else:
     if marks >= 50:
         print("you passed")
     else:
-        print("Failed")
+        print("you failed")
