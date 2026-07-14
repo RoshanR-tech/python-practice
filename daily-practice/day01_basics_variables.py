@@ -10,7 +10,7 @@ print("Name:", name)
 print("Age:", age)
 print("Country:",country)
 print("zip code:",zip_code)
-print("zip code:",zip_code)
+
 
 
 
