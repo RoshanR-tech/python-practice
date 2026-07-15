@@ -9,7 +9,7 @@ print("\n--- Your Details ---")
 print("Name:", name)
 print("Age:", age)
 print("Country:",country)
-print("zipcode:",zip_code)
+print("zipCode:",zip_code)
 
 
 
