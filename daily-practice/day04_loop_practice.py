@@ -1,7 +1,7 @@
 #grade calculator 
 marks = int(input("enter your marks: "))
 
-if marks < 0 or marks > 101:
+if marks < 0 or marks > 100:
     print("invalid")
 else:
     print("valid")
