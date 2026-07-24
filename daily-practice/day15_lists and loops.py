@@ -17,6 +17,6 @@ for num in numbers:
 print("List:", numbers)
 print("Sum:", total)
 print("Max:", max_num)
-print("Min: ", min_num)
+print("Min:", min_num)
 
 
