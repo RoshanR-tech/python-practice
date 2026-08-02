@@ -3,7 +3,7 @@ if n < 0 :
     print("it is a negaive number.")
 elif n > 0 :
         print("it is a positive number.")
-elif :
+else :
         print("it is a zero.")
 
 
