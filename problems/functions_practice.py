@@ -50,7 +50,7 @@ add_numbers(5, 7)
 def multiply(a, b):
     return a * b
 
-answer = multiply(4, 6)
+answer = multiply(6 , 6)
 print("Multiplication:", answer)
 
 
