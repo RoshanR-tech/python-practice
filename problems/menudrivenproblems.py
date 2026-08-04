@@ -12,7 +12,7 @@ for i in range (1,11):
     print(f"{n} x {i} = {n*i}")
 
 
-a = int(input("enter your first number: "))
+a = int(input("enter your First number: "))
 b = int(input("enter your second number: "))
 c = int(input("enter your third number: "))
 if a>=b and a>=c :
