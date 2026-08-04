@@ -13,7 +13,7 @@ for i in range (1,11):
 
 
 a = int(input("enter your First number: "))
-b = int(input("enter your second number: "))
+b = int(input("enter your Second number: "))
 c = int(input("enter your third number: "))
 if a>=b and a>=c :
     print(f"{a} is the largest number. ")
