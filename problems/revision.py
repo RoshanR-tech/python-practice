@@ -114,7 +114,7 @@ for i in range(n):
 
     print(a)
 
-    c = a + c
+    c = a + b
     a = b
     b = c
 
