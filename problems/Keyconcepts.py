@@ -10,7 +10,7 @@ while guess != secret_number:
     if guess == secret_number:
         print("Correct! You guessed it.")
     else:
-        print("Wrong guess, try again.")
+        print("Wrong number, try again.")
 
 
 
