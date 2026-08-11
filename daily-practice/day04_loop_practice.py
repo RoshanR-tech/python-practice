@@ -8,7 +8,7 @@ else:
 
     if marks >= 90:
         print("A grade")
-    elif marks >= 75:
+    elif marks >= 80:
         print("B grade")
     elif marks >= 50:
         print("C grade")
