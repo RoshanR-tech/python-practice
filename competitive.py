@@ -1,5 +1,5 @@
 #Discount system
-num_items = int(input("Number of items : "))
+num_items = int(input("Number of items: "))
 total= 0 
 for i in range (num_items):
     price = float(input(f"Enter the price of your item :"))
