@@ -13,7 +13,7 @@
 def greet():
     print("Hello, welcome to Python functions!")
 
- #function calling 
+greet() #function calling 
 
 
 
