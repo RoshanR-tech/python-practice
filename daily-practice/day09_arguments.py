@@ -2,7 +2,7 @@
 def student(name , course="python"):             #default of course would be python until it is changed 
     print(f"Hello {name} is learning {course}")
 student("Roshan.R")
-student("ankit","java")
+student("Rahul","java")
 
 #keyword arguments
 def student(name , course="Python"):
