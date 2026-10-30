@@ -19,3 +19,11 @@ while n > 0 :
     print(n)
     n -= 1 
 print("lift off") #counting backwards 
+
+
+n = 1 
+while n >= 5 :
+    if n == 2 :
+        break 
+print(n)
+n+=1
