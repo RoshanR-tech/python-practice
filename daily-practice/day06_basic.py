@@ -50,3 +50,13 @@ while True :
     
     else :
         print("Wrong guess, try again!")
+
+
+total = 0 
+while True :
+    num = int(input("Enter your num: "))
+    if num < 0 :
+        break              
+    total += num
+print(total)            #adding numbers until a negative number is entered 
+        
