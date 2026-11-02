@@ -41,4 +41,12 @@ while n <= 5 :
 print(total)
     
 
-
+se = 7 
+while True :
+    Secret = int(input("Enter your Secret number : "))
+    if Secret == se :
+        print("You got it! Lucky 7!")
+        break 
+    
+    else :
+        print("Wrong guess, try again!")
