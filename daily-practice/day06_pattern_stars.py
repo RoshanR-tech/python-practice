@@ -31,3 +31,13 @@ for i in range (1,5):
     print()
 
 
+for i in range(20,0,-1):
+    if i%4==0 :
+        print(i)   #for loop 
+        
+        
+num = 20
+while num > 0 :
+    if num%4==0:
+        print(num)
+    num -= 1     #same code as above but using while loop 
