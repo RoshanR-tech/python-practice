@@ -20,3 +20,14 @@ while n > 0 :
     n -= 1 
 print("lift off") #counting backwards // counting in reverse 
 
+
+pas = "Rossi@123"
+while True :
+    password = input("Enter your password : ")
+    if password == pas :
+        print("Access granted.")
+        break 
+    
+    else :
+        print("Access denied.")
+    
