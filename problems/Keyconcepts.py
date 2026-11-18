@@ -2,7 +2,7 @@
 # Concept: while loop, if-else, user input
 
 secret_number = 7
-guess = -1
+guess = int(input("Enter a number"))
 
 while guess != secret_number:
     guess = int(input("Enter your guess: "))
