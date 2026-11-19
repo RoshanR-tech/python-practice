@@ -19,3 +19,18 @@ while attempts < max_attempts:
         else:
             print("Thats the wrong password")
             print("Attempts left:", max_attempts - attempts)
+
+
+password = "Apple@123"
+count = 0 
+while count < 5 :
+    key = input("Enter your password: ")
+    if key == password :
+        print("access granted.")
+        break 
+    else :
+        print("Try again.")
+    count+=1
+print("Attempt limit exceeded.")  #better version 
+        
+    
